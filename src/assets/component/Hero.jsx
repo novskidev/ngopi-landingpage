@@ -15,7 +15,7 @@ function Hero() {
           Discover tranquility at Ngopi a sanctuary for unwinding,<br></br>
           where your evenings are perfected with relaxation and rich flavors.
         </p>
-       <Button>waba laba dub dub motherfucker</Button> 
+        <Button>Explore More</Button>
 
         <div className="flex flex-wrap gap-5 p-8 ">
           {HeroImage.map((item, index) => {

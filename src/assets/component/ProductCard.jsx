@@ -1,3 +1,5 @@
+import { intersect } from "../image/picture";
+
 function ProductCard({ picture, title, rating, review, description, price }) {
   return (
     <section className="flex flex-wrap justify-center w-full max-w-[302px] h-auto">
@@ -24,6 +26,7 @@ function ProductCard({ picture, title, rating, review, description, price }) {
           </div>
         </div>
       </div>
+      <img src={intersect} alt="" />
     </section>
   );
 }
